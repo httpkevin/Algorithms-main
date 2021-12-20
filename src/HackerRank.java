@@ -1,5 +1,5 @@
-//overload  
-public class HackerRank{
+//overload 
+public class HackerRank {
     public static void main(String[] args) {
       int result = sum(5, 10);
       System.out.printf("Testing");
