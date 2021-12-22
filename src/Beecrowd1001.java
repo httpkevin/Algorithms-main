@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Beecrowd1001{   
     public static void main(String[] Args) {
-        Scanner leia=new Scanner(System.in);
-        int A=leia.nextInt();
-        int B=leia.nextInt();
+        Scanner intput=new Scanner(System.in);
+        int A=intput.nextInt();
+        int B=intput.nextInt();
         int X=A+B;
         System.out.println("X = "+ X);
     }
