@@ -1,1 +1,1 @@
-# Algorithms desenvolvido na prática na plataforma Beecrowd URI
+# Algoritimos desenvolvidos na plataforma Beecrowd URI
