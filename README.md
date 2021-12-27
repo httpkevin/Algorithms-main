@@ -1,1 +1,1 @@
-# Algoritmos desenvolvidos na plataforma Beecrowd URI / Hacker Rank
+# Algoritmos desenvolvidos na plataforma Beecrowd URI / HackerRank
