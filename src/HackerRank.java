@@ -1,4 +1,4 @@
-//Hacker Rank | Java Stdin and Stdout II
+//Hacker Rank | Java Stdin and Stdout 1
 
 /*
 Most HackerRank challenges require you to read input from stdin (standard input) and write output to stdout (standard output).
