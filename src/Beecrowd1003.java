@@ -15,7 +15,5 @@ public class Beecrowd1003 {
         int B=input.nextInt();
         int Soma=A+B;
         System.out.println("SOMA = "+Soma); 
-
-
     }    
 }
