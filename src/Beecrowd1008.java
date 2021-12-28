@@ -10,6 +10,18 @@ Saída
 Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $
 */
 
+import java.util.Scanner;
+
 public class Beecrowd1008 {
-    
+    public static void main(String[] args){
+        Scanner Input = new Scanner(System.in);
+        int Funcionario = Input.nextInt();
+        int Horas = Input.nextInt();
+        double ValorPorHoras = Input.nextDouble();
+        
+        double Salario = Horas * ValorPorHoras;
+
+        System.out.println("NUMBER = " + Funcionario);
+        System.out.println(String.format("SALARY = U$ %.2f", Salario));
+    }
 }
