@@ -10,6 +10,16 @@ Saída
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 */
 
+import java.util.Scanner;
+
 public class Beecrowd1009 {
-    
+    public static void main(String[] args){
+        Scanner Input = new Scanner(System.in);
+        String Name = Input.next();
+        double Salario = Input.nextDouble();
+        double Vendas = Input.nextDouble();
+        
+        double Total = ((Vendas * 15)/100) + Salario;
+        System.out.println(String.format("TOTAL = R$ %.2f", Total));
+    }
 }
