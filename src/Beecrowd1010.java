@@ -12,11 +12,11 @@ public class Beecrowd1010 {
     public static void main(String[] args){
         Scanner Input = new Scanner(System.in);
         
-        int Código1 = Input.nextInt();
+        int Codigo1 = Input.nextInt();
         int NumeroPecas1 = Input.nextInt();
         double ValorUnitarioPecas1 = Input.nextDouble();
 
-        int Código2 = Input.nextInt();
+        int Codigo2 = Input.nextInt();
         int NumeroPecas2 = Input.nextInt();
         double ValorUnitarioPecas2 = Input.nextDouble();
         
