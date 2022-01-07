@@ -27,11 +27,11 @@ public class Beecrowd1013 {
         int b = input.nextInt();
         int c = input.nextInt();
         //Processa as condições
-        if ( a > b && a > c) {
+        if ( a > b && a > c) { // Se "a" for > que "b" e "c" então: "a" eh o maior
             System.out.println(a + " eh o maior"); //Retorno da condição
-        } else if(b > c){
+        } else if(b > c){ // "b" não é > que "a" e "c" então "b" pode ser > que "c" se ele for > então: "b" eh o maior)
                 System.out.println(b + " eh o maior"); //Retorno da condição
-        } else {
+        } else { // "c" é resultado da unica condição possível
             System.out.println(c + " eh o maior"); //Retorno da condição
         }        
     }
