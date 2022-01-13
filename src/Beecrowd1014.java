@@ -11,8 +11,17 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
 
 */
 
+import java.util.Scanner;
+
 public class Beecrowd1014 {
-    public static void main(String[] args){
+	
+    public static void main(String[] args) {
+        Scanner Input = new Scanner(System.in);
+        int x = Input.nextInt();
+        double y = Input.nextDouble();
+        double media = x / y;
+        System.out.println(String.format("%.3f km/l", media));   
     }
+	
 }
         
