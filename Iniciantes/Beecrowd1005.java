@@ -6,6 +6,7 @@ Entrada
 O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
 */
+
 import java.util.Scanner;
 
 public class Beecrowd1005{
