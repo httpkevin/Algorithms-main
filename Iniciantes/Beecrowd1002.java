@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Beecrowd1002 {
     public static void main(String[] Args){
-        //area = n.raio -> area = 3.14159
+        //área = n.raio -> área = 3.14159
         Scanner input=new Scanner(System.in); //Utilizando função Scanner
         double raio=input.nextDouble(); //Declarando input na variável raio 
         double calculation=3.14159*(Math.pow(raio,2)); //Calculei utilizando a função Math.pow para elevar o raio ao quadrado 
