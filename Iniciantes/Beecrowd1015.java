@@ -16,8 +16,8 @@ Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casa
 import java.util.Scanner;
 
 public class Beecrowd1015 {
-    
     public static void main(String[] args){
+    
         Scanner Input = new Scanner(System.in);
         double x1 = Input.nextDouble();
         double y1 = Input.nextDouble();
