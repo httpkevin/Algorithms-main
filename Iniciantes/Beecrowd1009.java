@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Beecrowd1009 {
     public static void main(String[] args){
         Scanner Input = new Scanner(System.in);
-        String Name = Input.next();
+        String Nome = Input.next();
         double Salario = Input.nextDouble();
         double Vendas = Input.nextDouble();
         
