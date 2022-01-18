@@ -17,9 +17,9 @@ public class Beecrowd1008 {
         Scanner Input = new Scanner(System.in);
         int Funcionario = Input.nextInt();
         int Horas = Input.nextInt();
-        double ValorPorHoras = Input.nextDouble();
+        double ValorHorasTrabalhado = Input.nextDouble();
         
-        double Salario = Horas * ValorPorHoras;
+        double Salario = Horas * ValorHorasTrabalhado;
 
         System.out.println("NUMBER = " + Funcionario);
         System.out.println(String.format("SALARY = U$ %.2f", Salario));
