@@ -1,4 +1,5 @@
 // Beecrowd 1012 | Área 
+
 /*
 Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
 a) a área do triângulo retângulo que tem A por base e C por altura.
@@ -18,17 +19,20 @@ import java.util.Scanner;
 public class Beecrowd1012 {
 	
     public static void main(String[] args) {
+        
         //Recebe a entrada de dados
         Scanner Input = new Scanner(System.in);
         double A = Input.nextDouble();
         double B = Input.nextDouble();
         double C = Input.nextDouble();
+        
         //Processa os dados 
         double triangulo = (A * C) / 2.0;
         double circulo = 3.14159 * (C * C);
         double trapezio = ((A + B) * C) / 2;
         double quadrado = B * B;
         double retangulo = A * B;
+        
         //Retorna o a saída de dados
         System.out.println(String.format("TRIANGULO: %.3f", triangulo));
         System.out.println(String.format("CIRCULO: %.3f", circulo));
