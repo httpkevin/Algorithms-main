@@ -22,6 +22,5 @@ public class Beecrowd1014 {
         double media = x / y;
         System.out.println(String.format("%.3f km/l", media));   
     }
-	
 }
         
