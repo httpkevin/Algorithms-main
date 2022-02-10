@@ -18,25 +18,18 @@ public class Beecrowd1018 {
         int atual = inputNotas;
         int notas100 = atual /100;
         atual -= notas100 * 100;
-
         int notas50 = atual /50;
         atual -= notas50 * 50;
-
         int notas20 = atual /20;
         atual -= notas20 * 20;
-
         int notas10 = atual /10;
         atual -= notas10 * 10;
-
         int notas5 = atual /5;
         atual -= notas5 * 5;
-
         int notas2 = atual /2;
         atual -= notas50 * 2;
-
         int notas1 = atual;
 
-        
         System.out.println(inputNotas);
         System.out.println(notas100  + " nota(s) de R$ 100,00");
         System.out.println(notas50 + " nota(s) de R$ 50,00");
